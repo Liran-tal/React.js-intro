@@ -1,0 +1,9 @@
+.pink-box{
+	width: 700px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: pink;
+}

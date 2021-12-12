@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App_2_1 from './2/App.2_1';
+// import App_2_1 from './2/App.2_1-hello_world';
+import App_2_2 from './2/module_2_2_basics_of_jsx.jsx';
 import reportWebVitals from './reportWebVitals';
 
 if (module.hot) {
@@ -10,7 +11,7 @@ if (module.hot) {
 
 ReactDOM.render(
   <React.StrictMode>
-    <App_2_1 />
+    <App_2_2 />
   </React.StrictMode>,
   document.getElementById('root')
 );

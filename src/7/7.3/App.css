@@ -1,0 +1,34 @@
+.App {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.black,
+.green,
+.red,
+.button {
+	font-size: 18px;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+}
+
+.black,
+.green,
+.red{
+	color: blanchedalmond;
+}
+
+.black {
+	background-color: black;
+}
+
+.green {
+	background-color: green;
+}
+
+.red {
+	background-color: red;
+}

@@ -5,7 +5,8 @@ import './index.css';
 // import module_2_2 from './2/module_2_2_basics_of_jsx.jsx';
 // import Module_3_1 from './3/3_1/module_3_1_boxes.jsx';
 // import App from './3/3_2/App.js';
-import App from './4/4.1/App';
+// import App from './4/4.1/App';
+import App from './4/4.2/App';
 import reportWebVitals from './reportWebVitals';
 
 if (module.hot) {

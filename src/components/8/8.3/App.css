@@ -5,31 +5,21 @@
   text-align: center;
 }
 
-.Circle {
-  animation: toCircle ease-in 2s forwards;
+
+
+
+
+.spinner1,
+.spinner2,
+.spinner3 {
+  animation: App-spin infinite 20s linear;
 }
 
-@keyframes toCircle{
-  to {
-    border-radius: 50%;
-  }
-}
-
-/* 
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-
-
-@keyframes App-logo-spin {
+@keyframes App-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-} */
+} 

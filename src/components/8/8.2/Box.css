@@ -1,0 +1,15 @@
+.Box{
+	width: 150px;
+	height: 150px;
+	margin: 15px 0;
+	background-color: cornsilk;
+	border: 3px solid black;
+	transition: all 1s forwards ease-in-out;
+	animation-name: "slide-right";
+}
+
+@keyframes slide-right {
+	from {transform: translateX(-100%)}
+	to {transform: translateX(0)}
+}
+

@@ -1,0 +1,33 @@
+.flex-col {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.red,
+.green,
+.blue {
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid rgb(19, 19, 19);
+	border-top-color: rgb(50, 50, 50);
+	border-left-color: rgb(50, 50, 50);
+	color:seashell;
+	text-shadow: 
+		"-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000";
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}

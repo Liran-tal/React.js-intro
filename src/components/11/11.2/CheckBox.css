@@ -1,0 +1,12 @@
+.flex-col {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+label {
+	margin: 5px;
+}
+

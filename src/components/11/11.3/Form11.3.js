@@ -15,7 +15,6 @@ class App extends React.Component {
 			age: '',
 			freeText: '',
 			isSubmit: false,
-			isApproved: false
 		}
 	}
 
@@ -23,40 +22,50 @@ class App extends React.Component {
 		this.setState({[id]: value});
 	}
 
-	reviewFields = () => {
-		return (
-			<div className="review-input-screen">
-				First Name: {this.state.firstName}
-				Last Name: {this.state.lastName}
-				Age: {this.state.age}
-				Free Text: {this.state.freeText}
+	// reviewFields = () => {
+	// 	return (
+	// 		<div className="review-input-screen">
+	// 			{confirm(	
+	// 				`First Name: ${this.state.firstName}
+	// 				Last Name: ${this.state.lastName}
+	// 				Age: ${this.state.age}
+	// 				Free Text: ${this.state.freeText}`
+	// 			) && <div>Submited!</div>}
+	// 		</div>
+	// 	)
+	// }
 
-			</div>
-		)
-	}
+	// outputButtons = (event) => {
+	// 	event.target.id === "back" && this.setState({displayOutput:false, displayInput:true})
+	// 	event.target.id === "send" && this.setState({displayOutput:false, displayMassage: true})
+	// }
 
 	render () {
 		return (
 			<form onSubmit={this.handleSubmit}>
 				<TextInput 
+					value={this.state.firstName}
 					callback={this.getTarget}
 					id='firstName'
 					label= 'First Name:'
 					type= 'text'	
 				/>
 				<TextInput 
+					value={this.state.lastName}
 					callback={this.getTarget}
 					id='lastName'
 					label= 'Last Name:'
 					type= 'text'
 				/>
 				<Select 
+					value={this.state.age}
 					callback={this.getTarget}
 					id='age'
 					label= 'Age:'
 					options={['0-18', '18-21', '21-35', '35-67', '67+']}
 				/>
 				<Textarea
+					value={this.state.freeText}
 					callback={this.getTarget}
 					id='age'
 					label= 'Age:'

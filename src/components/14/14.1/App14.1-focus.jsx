@@ -5,11 +5,6 @@ class App extends React.Component {
 	inputFieldRef = React.createRef();
 	state = {isFocus: true};
 
-	componentDidMount = () => {
-
-	}
-
-
 	render () {
 		return (
 			<div>

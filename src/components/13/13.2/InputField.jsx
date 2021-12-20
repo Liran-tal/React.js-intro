@@ -11,6 +11,7 @@ function InputField (props) {
 			onKeyPress={props.onKeyPress}
 			required={props.isRequired}
 			disabled={props.isDisabled}
+			autoFocus={props.isFocus}
 		/>
 	)
 }

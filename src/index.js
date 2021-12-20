@@ -17,7 +17,8 @@ import './index.css';
 // import App from './components/11/11.2/App11.2.js';
 // import App from './components/11/11.3/Form11.3.js';
 // import App from './components/12/ChuckNorisAPI-12.1';
-import App from './components/13/13.2/AvatarsMainPage.jsx';
+// import App from './components/13/13.2/AvatarsMainPage.jsx';
+import App from './components/14/14.1/App14.1-focus';
 
 
 import reportWebVitals from './reportWebVitals';

@@ -20,7 +20,9 @@ import './index.css';
 // import App from './components/13/13.2/AvatarsMainPage.jsx';
 // import App from './components/14/14.1/App14.1-focus';
 // import App from './components/14/14.2/App14.2-copyText';
-import App from "./code-along/youtube-like-app/page.jsx"
+// import App from "./code-along/youtube-like-app/page.jsx"
+import App from './components/16/16.1/App16.1-products';
+// import App from './components/16/16.2/App16.2-todo';
 
 import reportWebVitals from './reportWebVitals';
 

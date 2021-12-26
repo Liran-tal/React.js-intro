@@ -8,7 +8,7 @@ export default function CheckBox(props) {
 					<input 
 						type="checkbox" 
 						id={props.id}
-						onChange={(e) => (props.onChange(e))}
+						onChange={props.onChange}
 						checked={props.isChecked}
 					/>
 					<label>

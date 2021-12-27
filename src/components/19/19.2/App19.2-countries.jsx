@@ -10,7 +10,6 @@ export default function App() {
 	useEffect(() => {
 		async function getData() {
 			const {data} = await axios.get('https://intense-mesa-62220.herokuapp.com/https://restcountries.com/v2/all');
-			console.log({data});
 			setData(data);
 			setfilteredData(data);
 		} 

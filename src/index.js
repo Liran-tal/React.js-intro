@@ -27,9 +27,11 @@ import './index.css';
 // import App from './components/18/18.2/App18.2-simple-todo';
 // import App from './components/18/18.3/App18.3-what-is-time';
 // import App from './components/18/18.4/App18.4-mark-and-delete';
-import App from './components/19/19.1/App19.1-simple-fetch';
+// import App from './components/19/19.1/App19.1-simple-fetch';
+import App from './components/19/19.2/App19.2-countries';
 
 
+// import App from './components/19/19.2/App';
 import reportWebVitals from './reportWebVitals';
 
 if (module.hot) {

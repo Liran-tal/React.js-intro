@@ -32,7 +32,8 @@ import './index.css';
 // import App from './components/19/19.3/App19.3-algolia';
 // import App from './components/20/20.1/App20.1-cancel-request';
 // import App from './components/21/21.1/App21.1-editing';
-import App from './components/21/21.2/App21.2-video';
+// import App from './components/21/21.2/App21.2-video';
+import App from './components/21/21.3/App21.3-image-toggle';
 
 
 // import App from './components/20/20.*/App';

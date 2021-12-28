@@ -43,13 +43,14 @@ export default function App() {
 	}
 
 	const deleteChecked = () => {
-		const uncheckedItems = items.filter((item) => {
-			if (!item.isChecked) {
-				return item;
-			}
-		});
-
-		setItems(uncheckedItems);
+		
+		setItems(
+			items.filter((item) => {
+				if (!item.isChecked) {
+					return item;
+				}
+			})
+		);
 	}
 
 	const resetItems = () => {

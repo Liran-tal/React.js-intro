@@ -1,4 +1,3 @@
-import Task from './Task';
 
 const data = [
 	{ name: "CSS", completed: true },
